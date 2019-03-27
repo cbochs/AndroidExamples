@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">11_AppSearchBarExample</string>
+
+    <string-array name="country_names">
+        <item>Canada</item>
+        <item>United Stated</item>
+        <item>Brazil</item>
+        <item>Ukraine</item>
+        <item>France</item>
+        <item>Germany</item>
+    </string-array>
+</resources>
