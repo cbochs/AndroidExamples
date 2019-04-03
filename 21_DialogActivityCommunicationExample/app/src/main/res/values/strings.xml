@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">21_DialogActivityCommunicationExample</string>
+
+    <string-array name="toppings">
+        <item>Lettuce</item>
+        <item>Tomato</item>
+        <item>Onion</item>
+    </string-array>
+</resources>

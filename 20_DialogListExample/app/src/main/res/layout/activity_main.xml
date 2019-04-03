@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_dialog_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display List"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_dialog_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Checkboxes"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_dialog_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Radio Btns"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_dialog_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Custom"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
